@@ -16,7 +16,7 @@ categories: jekyll update
 - Peer to Peer
   - both computers are the same level
   - some things more difficult if no one is in charge
-![img.png](/assets/images/img.png?style=centerme)
+![img.png](/assets/networking/img.png?style=centerme)
 
 ## How Does Networking Work?
 
@@ -27,7 +27,7 @@ categories: jekyll update
 - Applications communicate by rteading and writing data through stream to each other
 - We primarly care about the Application layer in netwworking
 - our output becomes the other computers input and our input will be the other computers output
-![img_1.png](/assets/images/img_1.png?style=centerme)
+![img_1.png](/assets/networking/img_1.png?style=centerme)
 
 ## Sockets
 
@@ -41,7 +41,7 @@ categories: jekyll update
   - The Client sets up a Socket object to request a connection with the server
     - client is one of many processes that wish to talk to the server
 - Example: Misurda is the server for office hours, students that attended office hours are client
-![img_2.png](/assets/images/img_2.png?style=centerme) 
+![img_2.png](/assets/networking/img_2.png?style=centerme) 
 
 ## Client-Server Networking
 
@@ -62,7 +62,7 @@ categories: jekyll update
   - less control over users
   - harder to coordinate
   - more difficult to implement code
-![img_3.png](/assets/images/img_3.png?style=centerme) 
+![img_3.png](/assets/networking/img_3.png?style=centerme) 
 
 ## We Use LocalHost
 
@@ -86,7 +86,7 @@ categories: jekyll update
 - HTTP
   - Client talks first -> "Get index.html"
   - Server listens and gives the webpage
-![img_4.png](/assets/images/img_4.png?style=centerme) 
+![img_4.png](/assets/networking/img_4.png?style=centerme) 
 
 ## Classes ServerSocket and Socket
 
@@ -95,16 +95,16 @@ categories: jekyll update
   - accept new incoming connections from clients
 - Socket
   - requests a connection to the server
-![img_5.png](/assets/images/img_5.png?style=centerme) 
+![img_5.png](/assets/networking/img_5.png?style=centerme) 
 
 ## Sockets in Jva: One-Way Communication
 
 - Typical web server
-![img_6.png](/assets/images/img_6.png?style=centerme) 
+![img_6.png](/assets/networking/img_6.png?style=centerme) 
 
 ## General Networking Flow
 
-![img_7.png](/assets/images/img_7.png?style=centerme) 
+![img_7.png](/assets/networking/img_7.png?style=centerme) 
 
 ## Server - java.net.ServerSocket
 
@@ -114,18 +114,18 @@ categories: jekyll update
     connection
   - is a blocking process until a client connection is recieved
 - we can have multiple clients connect to the same server socket
-![img_8.png](/assets/images/img_8.png?style=centerme)
+![img_8.png](/assets/networking/img_8.png?style=centerme)
 
 ## Client - java.net.Socket
 
 - takes the String host and int port as the constructor and connects to server at the provided ip and port
 - inputStream and outputStream allow us to send serialized java data with decorators between the two sockets
-![img_9.png](/assets/images/img_9.png?style=centerme)
+![img_9.png](/assets/networking/img_9.png?style=centerme)
 
 ## Reserved Ports
 
 - Common example is port 80 is used for HTTP
-![img_10.png](/assets/images/img_10.png?style=centerme) 
+![img_10.png](/assets/networking/img_10.png?style=centerme) 
 
 ## Server Code Example
 
@@ -134,7 +134,7 @@ categories: jekyll update
   - server.accept() - is blocking until client connects, returns a regular Server object so we can send and recieve data
   - create input and output stream to send and recieve data that are linked to the inverse of the client our input
     is client's output our output is client's input
-![img_11.png](/assets/images/img_11.png?style=centerme) 
+![img_11.png](/assets/networking/img_11.png?style=centerme) 
 
 ## Client Code
 
@@ -142,7 +142,7 @@ categories: jekyll update
 - The server has to be active or we get an exception
 - Create the input and output streams inversely connected to the server our input is server output server input is
   client output
-![img_12.png](/assets/images/img_12.png?style=centerme) 
+![img_12.png](/assets/networking/img_12.png?style=centerme) 
 
 ## Live Demo
 
