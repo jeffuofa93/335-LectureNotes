@@ -6,7 +6,6 @@ categories: jekyll update
 ---
 
 <link rel="stylesheet" href="/assets/style.css">
-![img.png](/assets/networking/img.png?style=centerme)
 
 ## The java.util Framework
 
