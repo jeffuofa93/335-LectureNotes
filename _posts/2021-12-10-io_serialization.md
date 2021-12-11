@@ -170,7 +170,7 @@ categories: jekyll update
 - To be able to be serializable you need to implement the javaa.io.Serializable interface that allows your class to be
   serialized
 - Must declare static final long serialVersionUID = id;
-![img_25.png](/assets/io_serialization/img_25.png?style=centerme) \
+![img_25.png](/assets/io_serialization/img_25.png?style=centerme)
 
 ## Object streams
 
@@ -195,12 +195,12 @@ categories: jekyll update
 - **fields marked transient are skipped**
 - Reason to skip would be if you have a password and you don't want it written
 - Another example would be a random seed for a game
-![img_28.png](/assets/io_serialization/img_28.png?style=centerme) \
+![img_28.png](/assets/io_serialization/img_28.png?style=centerme)
 
 - Also we can define special reaObject and writeObject methods to for example prompt the user for input to fill
   missing data from a serialized class that has fields marked as transient
 - We can also change the object fields for things that are not transient but this is the main use case
-![img_29.png](/assets/io_serialization/img_29.png?style=centerme) \
+![img_29.png](/assets/io_serialization/img_29.png?style=centerme)
 
 - If you write an object to a file and then you change the object and want to write it again, writing the object
   again to the same file will create to instances of the object

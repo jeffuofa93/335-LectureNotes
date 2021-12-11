@@ -13,7 +13,7 @@ categories: jekyll update
 - Two basic ways to create animations
   - JavaFX Transition class
   - JavaFX TimeLine -> what we used in our project, custom canvas-based
-- ![img.png](/assets/javafx_animation/img.png?style=centerme) \
+- ![img.png](/assets/javafx_animation/img.png?style=centerme)
 
 ## One Way: Use Transition Class
 
@@ -33,7 +33,7 @@ categories: jekyll update
   - set duration
   - setNode
   - setPath - to the path declared above
-- ![img_2.png](/assets/javafx_animation/img_2.png?style=centerme) \
+- ![img_2.png](/assets/javafx_animation/img_2.png?style=centerme)
 
 ## TimeLine
 
@@ -42,7 +42,7 @@ categories: jekyll update
   - How often it needs to update the given properties of an object
   - Which properties to actually update
 - This is done by each step in the timeline being a KeyFrame instance
-- ![img_3.png](/assets/javafx_animation/img_3.png?style=centerme) \
+- ![img_3.png](/assets/javafx_animation/img_3.png?style=centerme)
 
 ## Using TimeLine
 
@@ -50,22 +50,22 @@ categories: jekyll update
 - The Timeline is going to add the keyframe events with the given handler to the javaFx event queu at the given
   duration increments
 - setCycleCount - tells the timeline how many times we want this event to be added
-- ![img_4.png](/assets/javafx_animation/img_4.png?style=centerme) \
+- ![img_4.png](/assets/javafx_animation/img_4.png?style=centerme)
 
 ## Animation Handler Example
 
 - can also just handle with a lambda
-- ![img_5.png](/assets/javafx_animation/img_5.png?style=centerme) \
+- ![img_5.png](/assets/javafx_animation/img_5.png?style=centerme)
 
 ## Example Timeline for the Competitive Timer in Chess
 
-![img_6.png](/assets/javafx_animation/img_6.png?style=centerme) \
+![img_6.png](/assets/javafx_animation/img_6.png?style=centerme)
 
 ## Sprites
 
 - **Sprite - is an image that is part of a larger graphics scene**
 - **Sprite Sheet - allows us to combine multiple frames of an animation into a single image**
-- ![img_8.png](/assets/javafx_animation/img_8.png?style=centerme) \
+- ![img_8.png](/assets/javafx_animation/img_8.png?style=centerme)
 
 ## ImageView.viewPort
 
@@ -76,10 +76,10 @@ categories: jekyll update
 ## Sprites on a Canvas
 
 - Draws the specific section of the image from the source rectangle to the specific position on the canvas
-- ![img_9.png](/assets/javafx_animation/img_9.png?style=centerme) \
+- ![img_9.png](/assets/javafx_animation/img_9.png?style=centerme)
 
 ## Summary
 
 - timeline is a way to add events to event queue in the future the events cannot be blocking or it will stop the
   processing of the event queue
-- ![img_10.png](/assets/javafx_animation/img_10.png?style=centerme) \
+- ![img_10.png](/assets/javafx_animation/img_10.png?style=centerme)
